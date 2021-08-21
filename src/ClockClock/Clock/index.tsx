@@ -10,7 +10,13 @@ interface ClockProps {
 
 export const Clock: React.FC<ClockProps> = ({ hands }) => {
   return (
-    <Box border="1px solid black" rounded="full" pos="relative">
+    <Box
+      border="1px"
+      borderColor="white"
+      rounded="full"
+      boxSize="clamp(10px, 2.5vw, 80px)"
+      pos="relative"
+    >
       <Hand percent={getPercentageFromHandDirection(hands[0])} />
       <Hand percent={getPercentageFromHandDirection(hands[1])} />
     </Box>

@@ -16,7 +16,7 @@ export const Hand: React.FC<HandProps> = ({ percent }) => {
       transform={`translateX(-50%) rotate(${percent * 360}deg)`}
       transformOrigin="bottom"
       transition="transform 300ms ease-in-out"
-      bg="black"
+      bg="white"
     />
   );
 };
