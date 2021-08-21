@@ -1,5 +1,5 @@
 # A clock made of clocks!
 
-Heavily inspired by rendinjast's [clocks-newpage](https://github.com/rendinjast/clocks-newpage).
+An implementation of rendinjast's [clocks-newpage](https://github.com/rendinjast/clocks-newpage).
 
-<img src='./images/preview.png' alt='preview'>
+<img src='./images/preview.gif' alt='preview'>
