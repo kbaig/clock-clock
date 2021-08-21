@@ -148,7 +148,7 @@ interface DisplayGridProps extends GridProps {
 }
 
 
-const CELL_SIZE = '2vw'
+const CELL_SIZE = '40px'
 
 const DisplayGrid: React.FC<DisplayGridProps> = ({ columns, ...rest }) => (
   <Grid templateColumns={`repeat(${columns}, ${CELL_SIZE})`} autoRows={CELL_SIZE} {...rest} />
