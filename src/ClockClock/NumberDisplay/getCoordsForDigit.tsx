@@ -1,5 +1,5 @@
 import { ClockDirections } from "../ClockDirections";
-import { DOWNRIGHT, HORIZONTAL, DOWNLEFT, VERTICAL, UPRIGHT, UPLEFT, NONE } from "../HORIZONTAL";
+import { DOWNRIGHT, HORIZONTAL, DOWNLEFT, VERTICAL, UPRIGHT, UPLEFT, NONE } from "../ClockDirections";
 
 const coordsMap: Record<number, ClockDirections[][]> = {
   0: [

@@ -2,7 +2,7 @@ import React from "react";
 import { Clock } from "../Clock";
 import { ClockDirections } from "../ClockDirections";
 import { DisplayGrid } from "../DisplayGrid";
-import { NONE, DOWNRIGHT, DOWNLEFT, UPRIGHT, UPLEFT } from "../HORIZONTAL";
+import { NONE, DOWNRIGHT, DOWNLEFT, UPRIGHT, UPLEFT } from "../ClockDirections";
 
 const separatorCoords: ClockDirections[][] = [
   [NONE, NONE],
